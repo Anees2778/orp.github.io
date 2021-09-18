@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(100, 99, 99);
+    background-color: rgb(230, 220, 220);
+}
+.container{
+    background-color: rgb(223, 210, 210);
+    margin: auto;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px .7pc black;
+    margin-bottom: 50px;
+}
+.logo{
+    padding-top: 30px;
+    margin: 30px 0px 0px 20px;
+}
+.logo_img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+span{
+    margin: 30px 0px 0px 5px;
+    vertical-align: middle;
+}
+.tophead{
+    text-align: center;
+    padding: 50px;
+}
+.msgbox{
+    background-color: #fff;
+    width: 80%;
+    height: 375px;
+    margin:auto;
+    border-radius: 25px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    box-shadow:
+    0px 5px 0px 0px hsl(0, 0%, 46%),
+    0px 10px 0px 0px hsl(0, 0%, 65%),
+    0px 15px 0px 0px rgb(192, 191, 191);
+}
+.msgbox:before{
+    border-bottom: 1px solid red;
+}
+.msgboximg{
+    border-radius: 50%;
+    border: 1px solid rgb(241, 76, 76);
+    padding: 5px;
+    width: 18%;
+    margin-top: -30px;
+}
+
+.image,
+.msgicon{
+    justify-content: center;
+    display: flex;
+}
+.msg{
+    width: 70%;
+    padding: 0px 10px 1px 10px;
+}
+.msgicon{
+    padding: 18px 0px 20px 0px;
+}
+.comment{
+    width: 20px;
+}
+.footertxt{
+    text-align: center;
+}
+/* ........................................social media icons */
+.fa {
+    font-size: 16px;
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .ssicons{
+      float: right;
+      margin-top: 50px;
+      padding-right: 8px;
+      vertical-align: bottom;
+  }
+  .log{
+      padding-right: 30px;
+
+  }
+  .log span a{
+    margin: 30px 0px 0px 5px;
+    vertical-align: middle;
+  }
+  .line{
+      width: 90%;
+      background-color: black;
+      height: 1.5px;
+      margin: auto;
+  }
+  .bot{
+      margin: 200px 0px 75px 0px;
+  }
+  .logo_image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px -20px;
+  }
+  .p1{
+    margin: -33px -51px 30px 80px;
+  }
+
+  /*..............................dkuwqeydfiu7ewyiue2grdfi....................*/
+  @media only screen and (max-width: 400px) {
+    .msgboximg{
+        width:30%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .msg{
+        width: 100%;
+    }
+    .msgboximg{
+        width:20%;
+    }
+    .msgbox{
+        width: 100%;
+    }
+    .p1{
+    }
+  }
